@@ -43,9 +43,17 @@ input[type=button]
     margin-left: 12px;
     border-radius: 5px;
 }
+.footer{
+    display: flex;
+    margin-left: 1rem;
+    gap: 2.5rem;
+}
 #del{
-    width: 100%;
+    width: 40%;
     margin-left: 0;
+}
+#ac{
+    width: 30%;
 }
 @media screen and (min-width:720px) {
     body{

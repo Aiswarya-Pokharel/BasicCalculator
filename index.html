@@ -32,7 +32,10 @@
         <input type="button" value="%" onclick="calc.display.value+='%'">
         <input type="button" value="=" onclick="calc.display.value =eval(calc.display.value)">
         <br></br>
-        <input type="button" value="DELETE" onclick="calc.display.value=''" ID="del">
+        <div class="footer">
+        <input type="button" value="DELETE" onclick="calc.display.value= display.value.toString().slice(0,-1)" ID="del">
+        <input type="button" value="AC" onclick="calc.display.value=''" ID="ac">
+    </div>
     </form>
    </div>
 </body>
