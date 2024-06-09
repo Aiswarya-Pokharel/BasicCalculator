@@ -56,13 +56,13 @@ input[type=button]
 }
 @media screen and (min-width:720px) {
     body{
-        margin-top: 10rem;
+        margin-top: 15rem;
         margin-right: 10rem;
     }
 }
 @media screen and (min-width:1024px) {
     body{
-        margin-right: 15rem;
+        margin-right: 18rem;
         margin-top: 25px;
     }
     h1{
