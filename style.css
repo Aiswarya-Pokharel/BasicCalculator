@@ -5,17 +5,16 @@
 }
 h1{
     display: inline;
-    align-items: center;
-    margin-left: 75px;
     font-style: italic;
+    margin-left: 80px;
 }
 #wrap{
     width: 290px;
-    margin: auto;
     height: auto;
     padding: 15px;
     box-sizing: border-box;
     background: grey;
+    margin: auto;
 }
 input[type=text]
 {
@@ -64,6 +63,7 @@ input[type=button]
 @media screen and (min-width:1024px) {
     body{
         margin-right: 15rem;
+        margin-top: 25px;
     }
     h1{
         margin-left: 7rem;
